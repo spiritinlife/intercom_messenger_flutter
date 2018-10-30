@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "271785344603",
+    "firebase_url": "https://intercom-example-flutter.firebaseio.com",
+    "project_id": "intercom-example-flutter",
+    "storage_bucket": "intercom-example-flutter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:271785344603:android:688fa55eb1243484",
+        "android_client_info": {
+          "package_name": "test.com.intercommessengerexample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "271785344603-nusa9g21jnlbr9uve70k8v02capdek9k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "test.com.intercommessengerexample",
+            "certificate_hash": "064b638fed5088dc400990846ff5f2c8a7192bf3"
+          }
+        },
+        {
+          "client_id": "271785344603-5bkmqjh2qrnj7bt62qi0dregmo16q3f9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-Rdh0OWF5feqaFftm7kveo3z9PKSIaHM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "271785344603-5bkmqjh2qrnj7bt62qi0dregmo16q3f9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
