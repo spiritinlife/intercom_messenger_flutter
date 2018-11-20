@@ -52,19 +52,19 @@ class IntercomBridge(private val call: MethodCall, private val result: Result) {
 
 
     private fun getArgString(key: String): String {
-        return call.argument<String>(key)
+        return call.argument<String>(key)!!
     }
 
     private fun getArgLong(key: String): Long {
-        return call.argument<Long>(key)
+        return call.argument<Long>(key)!!
     }
 
     private fun getArgInt(key: String): Int {
-        return call.argument<Int>(key)
+        return call.argument<Int>(key)!!
     }
 
     private fun getArgBool(key: String): Boolean {
-        return call.argument<Boolean>(key)
+        return call.argument<Boolean>(key)!!
     }
 
 
@@ -267,7 +267,7 @@ class IntercomBridge(private val call: MethodCall, private val result: Result) {
 
 
     fun handleIntercomPushNotification(context: Application) {
-        val message = call.argument<Map<String, String>>("data")
+        val message = call.argument<Map<String, String>>("data")!!
         if (intercomPushClient.isIntercomPush(message)) {
             intercomPushClient.handlePush(context, message)
         }
